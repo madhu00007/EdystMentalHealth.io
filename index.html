@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  
+
+
+  <title>Edyst Mental Health</title>
+
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="row main">
+    <div class="main__hero">
+      <nav class="row main__hero__nav">
+        <img src="./images/icon-hamburger.svg" alt="Open Menu" class="main__hero__nav mobile active open-menu" onclick="toggleMenu();">
+        <img class="main__hero__nav logo" src="./images/edystlogo.svg" alt="edyst Logo" >
+        <div class="main__hero__nav__links">
+          <img src="./images/icon-close.svg" alt="Open Menu" class="main__hero__nav mobile active close-menu" onclick="toggleMenu();">
+          <a href="" class="main__hero__nav__links--item">Therapy</a>
+          <a href="" class="main__hero__nav__links--item">Coronavirus</a>
+          <a href="" class="main__hero__nav__links--item">Psychology</a>
+          <a href="" class="main__hero__nav__links--item">Relationships</a>
+
+        </div>
+      </nav>
+    </div>
+    <div class="col main__tagline">
+      <h1 class="main__tagline--header">Fearing Change</h1>
+      <p class="main__tagline--body">Regardless of where we stand, I can bet that none of us like it when change is forced upon us. So we fight it because we feel out of control, and the unknown generally feels scary. But what if taking back control was all a matter of perspective?</p>
+      <div class="row main__tagline__shoplink">
+        <a href="#" class="main__tagline__shoplink--link">Register Now</a>
+        <img class="main__tagline__shoplink--arrow" src="./images/icon-arrow.svg" alt="Arrow Right">
+      </div>
+      <div class="row main__tagline__arrows">
+        <div class="main__tagline__arrows--previous" onclick="toggleBackground(-1);">
+          <img src="./images/icon-angle-left.svg" alt="Previous Image">
+        </div>
+        <div class="main__tagline__arrows--next" onclick="toggleBackground(1);">
+          <img src="./images/icon-angle-right.svg" alt="Next Image">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row bottom">
+    <div class="bottom__image">
+      <img class="bottom__image--dark" src="./images/Change-scaled-1024x683_420x266.jpg" alt="Change">
+
+    </div>
+    <div class="col bottom__about">
+      <h2 class="bottom__about--header">About Edyst</h2>
+      <p class="bottom__about--body">Gaining knowledge isn’t a problem. Applying it, on the other hand, is a lot more challenging.Edyst is about reflecting on simple wisdom and learning new ways to apply it to our complex lives. It has emerged as a leading resource for peace and happiness, with more than ten million readers and followers and a vibrant community forum.</p>
+    </div>
+    <div class="bottom__image">
+      <img class="bottom__image--light" src="./images/Love-yourself_420x266.png" alt="Love">
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Founded by <a href="#" target="_blank">Mrinal Madhubrata</a>. 
+    Coded by <a href="#" target="_blank">Mrinal Madhubrata</a>.
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
